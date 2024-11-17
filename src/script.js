@@ -27,12 +27,12 @@ function handleBookingFormSubmission(event) {
     }
   }
   
-  // Attach event listener if booking form is present (for browser environments)
+  // Attach the event listener if booking form is present (for browser environments)
   const bookingForm = document.getElementById("bookingForm");
   if (bookingForm) {
     bookingForm.addEventListener("submit", handleBookingFormSubmission);
   }
   
-  // Export the function for testing
+  // Export all the function for testing
   module.exports = { handleBookingFormSubmission };
   
