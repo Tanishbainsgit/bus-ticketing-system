@@ -1,5 +1,3 @@
-// script.js
-
 // Function to handle booking form submission
 function handleBookingFormSubmission(event) {
     event.preventDefault();
@@ -27,12 +25,12 @@ function handleBookingFormSubmission(event) {
     }
   }
   
-  // Attach the event listener if booking form is present (for browser environments)
+  // Attach git push origin mainevent listener if booking form is present (for browser environments)
   const bookingForm = document.getElementById("bookingForm");
   if (bookingForm) {
     bookingForm.addEventListener("submit", handleBookingFormSubmission);
   }
   
-  // Export the function for testing
+  // Export function for testing
   module.exports = { handleBookingFormSubmission };
   
