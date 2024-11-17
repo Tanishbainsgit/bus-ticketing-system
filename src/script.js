@@ -33,6 +33,6 @@ function handleBookingFormSubmission(event) {
     bookingForm.addEventListener("submit", handleBookingFormSubmission);
   }
   
-  // Export all the function for testing
+  // Export the function for testing
   module.exports = { handleBookingFormSubmission };
   
