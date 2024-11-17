@@ -25,7 +25,7 @@ function handleBookingFormSubmission(event) {
     }
   }
   
-  // Attach git push origin mainevent listener if booking form is present (for browser environments)
+  // Attach git push origin mainevent listener if booking form is present
   const bookingForm = document.getElementById("bookingForm");
   if (bookingForm) {
     bookingForm.addEventListener("submit", handleBookingFormSubmission);
